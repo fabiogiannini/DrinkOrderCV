@@ -185,7 +185,7 @@ namespace DrinkOrderCV.Web.Controllers
 
         // pay
         /// <summary>
-        /// Payment of the cart, if cash is selected and sum is <= 10 it closes the shopping cart, if credit is selected closes the cart. The shopping cart is closed when IsActive=false.
+        /// Payment of the cart, if cash is selected and sum is less or equal 10 it closes the shopping cart, if credit is selected closes the cart. The shopping cart is closed when IsActive=false.
         /// </summary>
         /// <remarks>
         /// Sample request:
