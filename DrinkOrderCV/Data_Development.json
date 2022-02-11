@@ -1,0 +1,96 @@
+{
+  "ProductModel": [
+    {
+      "Code": "itco",
+      "Name": "Italian Coffee",
+      "Price": 1.5,
+      "Currency": "EUR"
+    },
+    {
+      "Code": "amco",
+      "Name": "American Coffee",
+      "Price": 3,
+      "Currency": "EUR"
+    },
+    {
+      "Code": "tea",
+      "Name": "Tea",
+      "Price": 4,
+      "Currency": "EUR"
+    },
+    {
+      "Code": "choco",
+      "Name": "Chocolate",
+      "Price": 4,
+      "Currency": "EUR"
+    }
+  ],
+  "DiscountModel": [
+    {
+      "Code": "perc",
+      "Name": "Percentual Discount 10%",
+      "DiscountValue": 10,
+      "Type": 0
+    },
+    {
+      "Code": "fix",
+      "Name": "Fixed Discount -10 EUR",
+      "DiscountValue": 10,
+      "Type": 1
+    }
+  ],
+  "PaymentMethodModel": [
+    {
+      "Code": "cash",
+      "Name": "Cash",
+      "Threshold": "10"
+    },
+    {
+      "Code": "creditCard",
+      "Name": "Credit Card"
+    }
+  ],
+  "CartModel": [
+    {
+      "DiscountCode": null,
+      "PaymentMethodCode": "creditCard",
+      "DiscountValue": 0.0,
+      "DiscountType": -1,
+      "Products": [
+        {
+          "ProductCode": "itco",
+          "Qty": 2.0,
+          "Price": 1.5
+        },
+        {
+          "ProductCode": "amco",
+          "Qty": 10.0,
+          "Price": 3.0
+        }
+      ],
+      "IsActive": false,
+      "Total": 33.00,
+      "Code": "2LU8VLIV"
+    },
+    {
+      "DiscountCode": "perc",
+      "PaymentMethodCode": null,
+      "DiscountValue": 10.0,
+      "DiscountType": 0,
+      "Products": [],
+      "IsActive": true,
+      "Total": 0.0,
+      "Code": "VYMZ5K29"
+    },
+    {
+      "DiscountCode": null,
+      "PaymentMethodCode": null,
+      "DiscountValue": 0.0,
+      "DiscountType": null,
+      "Products": [],
+      "IsActive": true,
+      "Total": 0.0,
+      "Code": "TX9HA4IE"
+    }
+  ]
+}
